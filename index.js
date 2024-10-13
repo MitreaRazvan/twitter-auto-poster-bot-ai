@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
- "generate torjan solana bot crypto meme free sniper bot content, about how much ganins i made , how much gains can trojan solana bot can make you, how good is the technology and how easy to use is. How people make millions using trojan solana bot and at the end of every text you write add this link: https://t.me/solana_trojanbot?start=r-mitrea004; write them as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis" ;
+ "generate torjan solana bot crypto meme free sniper bot content, about how much ganins i made , how much gains can trojan solana bot can make you, how good is the technology and how easy to use is. How people make millions using trojan solana bot and at the end of every text you write add this link: https://t.me/solana_trojanbot?start=r-mitrea004; write them as a tweet, it should not be vague and should be unique; under 250 characters and should be plain text, you can use emojis" ;
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const text = response.text();
