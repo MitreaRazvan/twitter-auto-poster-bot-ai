@@ -24,7 +24,7 @@ async function run() {
   });
 
   // Write your prompt here
-  const prompt = "generate torjan solana bot crypto meme free sniper bot content, about how much ganins i made , how much gains can trojan solana bot can make you, how good is the technology and how easy to use is. How people make millions of dollars/solana using trojan solana bot and at the end of every tweet you write add this link: https://shorturl.at/iS1K5; write them as a tweet, it should not be vague and should be unique; under 200 characters and should be plain text, you can use emojis";
+  const prompt = "generate torjan solana bot crypto meme free sniper bot content, about how much ganins i made , how much gains can trojan solana bot can make you, how good is the technology and how easy to use is. How people make millions of dollars/solana using trojan solana bot and at the end of the text please add this affiliate link: https://t.me/solana_trojanbot?start=r-mitrea004; write them as a tweet, it should not be vague and should be unique; under 200 characters and should be plain text, you can use emojis";
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const text = response.text();
